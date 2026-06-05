@@ -1,0 +1,6 @@
+{
+  "name": "TOOTH 33 Dental Care",
+  "description": "Premium, modern dental care website with a sleek user interface for treatments, booking appointments, meet our experts, and patient inquiries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
