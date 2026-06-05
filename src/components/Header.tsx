@@ -37,20 +37,20 @@ export default function Header({ onOpenBooking, onOpenAdmin, activeSection }: He
           <div className="flex items-center space-x-6">
             <span className="flex items-center font-medium">
               <MapPin className="w-3.5 h-3.5 mr-1.5 text-brand-teal-light fill-brand-teal/80" />
-              123 Dental Street, Medical District
+              Amman Towers, Thindal, Erode
             </span>
             <span className="flex items-center font-medium">
               <Clock className="w-3.5 h-3.5 mr-1.5 text-brand-teal-light" />
-              Mon - Sat: 9:00 AM - 8:00 PM
+              Mon-Sat: 9:30 AM - 9:00 PM | Sun: 10:00 AM - 9:00 PM
             </span>
           </div>
           <div className="flex items-center space-x-6">
             <a 
-              href="tel:+1234567890" 
+              href="tel:09944578366" 
               className="flex items-center hover:text-brand-teal-light font-medium transition-colors cursor-pointer"
             >
               <Phone className="w-3.5 h-3.5 mr-1.5 text-brand-teal-light fill-brand-teal-light" />
-              +1 (234) 567-890
+              099445 78366
             </a>
             <a 
               href="#contact" 
@@ -177,11 +177,11 @@ export default function Header({ onOpenBooking, onOpenAdmin, activeSection }: He
             <div className="pt-4 border-t border-slate-100 grid grid-cols-2 gap-2 text-[10px] text-slate-400">
               <div>
                 <p className="font-semibold text-slate-500 uppercase">Emergency Call</p>
-                <p className="text-slate-800 font-bold mt-0.5">+1 (234) 567-890</p>
+                <p className="text-slate-800 font-bold mt-0.5">099445 78366</p>
               </div>
               <div>
                 <p className="font-semibold text-slate-500 uppercase">Working Hours</p>
-                <p className="text-slate-800 font-bold mt-0.5">Mon - Sat: 9:00 AM - 8:00 PM</p>
+                <p className="text-slate-800 font-bold mt-0.5">Daily: 9:30 AM - 9:00 PM</p>
               </div>
             </div>
           </div>

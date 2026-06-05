@@ -41,9 +41,14 @@ export default function Footer({ onOpenAdmin }: FooterProps) {
               referrerPolicy="no-referrer"
               className="h-10 w-10 md:h-12 md:w-12 object-cover rounded-full border border-slate-850 shadow-sm" 
             />
-            <span className="font-bold text-base tracking-tight text-white uppercase font-display mt-0.5">
-              Tooth <span className="text-brand-teal">33</span>
-            </span>
+            <div className="flex flex-col text-left justify-center">
+              <span className="font-bold text-base tracking-tight text-white uppercase font-display leading-tight">
+                Tooth <span className="text-brand-teal">33</span>
+              </span>
+              <span className="text-[9px] font-extrabold tracking-wider text-brand-teal uppercase mt-0.5 leading-none">
+                Dental Care
+              </span>
+            </div>
           </a>
           <p className="text-xs leading-relaxed text-slate-400 font-normal pr-4 max-w-sm">
             Elevating dental care through precision, technology, and compassionate service in a premium, sterilized boutique environment. Experience the gold standard of cosmetic health.
@@ -152,13 +157,13 @@ export default function Footer({ onOpenAdmin }: FooterProps) {
           <ul className="space-y-3.5 text-xs">
             <li className="flex items-start">
               <MapPin className="w-4 h-4 text-brand-teal shrink-0 mr-2.5 mt-0.5" />
-              <span className="text-slate-400 font-normal">
-                123 Dental Street, Medical District, City, 10001
+              <span className="text-slate-400 font-normal leading-relaxed">
+                Amman Towers, Perundurai Rd, Thindal, Erode, Tamil Nadu 638012
               </span>
             </li>
             <li className="flex items-center">
               <Phone className="w-4 h-4 text-brand-teal shrink-0 mr-2.5" />
-              <span className="text-slate-400 font-normal">+1 (234) 567-890</span>
+              <span className="text-slate-400 font-normal">099445 78366</span>
             </li>
             <li className="flex items-center">
               <Mail className="w-4 h-4 text-brand-teal shrink-0 mr-2.5" />
@@ -173,7 +178,15 @@ export default function Footer({ onOpenAdmin }: FooterProps) {
       <div className="border-t border-slate-900 bg-black py-8 px-4 md:px-10">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-xs">
           <p className="text-slate-500 font-normal">
-            © 2026 TOOTH 33 Dental Care. All rights reserved. Registered medical surgical clinic NY-90812.
+            © 2026 Tooth 33 Dental Care. All rights reserved. Developed by{' '}
+            <a 
+              href="https://www.dadazync.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-brand-teal hover:text-brand-teal-light font-semibold transition-colors duration-200 underline decoration-brand-teal/30 hover:decoration-brand-teal-light underline-offset-4 cursor-pointer"
+            >
+              datazync
+            </a>
           </p>
           <button
             onClick={handleScrollToTop}

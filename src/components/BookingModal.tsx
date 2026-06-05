@@ -272,7 +272,7 @@ export default function BookingModal({
                     className="w-full px-4 py-2.5 rounded-lg border border-slate-250 focus:outline-none focus:border-brand-teal text-slate-800 text-sm focus:ring-1 focus:ring-brand-teal transition-colors"
                   />
                   <p className="text-[11px] text-slate-400">
-                    Clinic open Mon – Sat: 9:00 AM – 8:00 PM for premium dental services.
+                    Clinic open Mon – Sat: 9:30 AM – 9:00 PM, Sun: 10:00 AM – 9:00 PM for premium dental services.
                   </p>
                 </div>
 

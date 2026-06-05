@@ -48,8 +48,8 @@ export default function ContactSection() {
               </div>
               <div className="text-xs">
                 <p className="font-bold text-slate-900 uppercase tracking-wider">Clinical Location</p>
-                <p className="text-slate-500 mt-1 font-normal">
-                  123 Dental Street, Medical District, City, 10001
+                <p className="text-slate-500 mt-1 font-normal leading-relaxed">
+                  Amman Towers, Perundurai Rd, opp. to The Indian Public School, Maruthi Nagar, Sengodampalayam, Thindal, Erode, Tamil Nadu 638012
                 </p>
               </div>
             </div>
@@ -61,8 +61,8 @@ export default function ContactSection() {
               <div className="text-xs">
                 <p className="font-bold text-slate-900 uppercase tracking-wider">Inquiry lines</p>
                 <p className="text-slate-500 mt-1 font-normal">
-                  +1 (234) 567-890 — General Support <br />
-                  +1 (234) 567-891 — Surgical Coordination
+                  099445 78366 — Clinical Appointments <br />
+                  +91 99445 78366 — Emergency Coordinator
                 </p>
               </div>
             </div>
@@ -86,9 +86,9 @@ export default function ContactSection() {
               </div>
               <div className="text-xs">
                 <p className="font-bold text-slate-900 uppercase tracking-wider">Operation Times</p>
-                <p className="text-slate-500 mt-1 font-normal">
-                  Monday to Saturday: 9:00 AM – 8:00 PM <br />
-                  Sundays: Emergency Surgery Call Duty Only
+                <p className="text-slate-500 mt-1 font-normal leading-relaxed">
+                  Monday to Saturday: 9:30 AM – 9:00 PM <br />
+                  Sundays: 10:00 AM – 9:00 PM
                 </p>
               </div>
             </div>
@@ -176,15 +176,15 @@ export default function ContactSection() {
                 <MapPin className="w-6 h-6 text-brand-teal shrink-0 animate-bounce mx-auto" />
                 <p className="text-[11px] font-bold text-slate-900 uppercase tracking-wider font-display">TOOTH 33 CLINIC SUITE</p>
                 <p className="text-[10px] text-slate-400 max-w-xs font-normal">
-                  Surgical Pavilion Unit 3, Medical Heights Avenue, NYC
+                  Amman Towers, Perundurai Rd, Thindal, Erode (Get there: 4 mins)
                 </p>
                 <a 
-                  href="https://google.com/maps" 
+                  href="https://www.google.com/maps/search/?api=1&query=Amman+Towers+Perundurai+Rd+Maruthi+Nagar+Thindal+Erode+Tamil+Nadu+638012" 
                   target="_blank" 
                   referrerPolicy="no-referrer"
                   className="inline-block text-[10px] font-bold text-brand-teal hover:underline leading-none pt-1"
                 >
-                  Retrieve Travel Directions →
+                  Retrieve Travel Directions (4 mins away) →
                 </a>
               </div>
             </div>
